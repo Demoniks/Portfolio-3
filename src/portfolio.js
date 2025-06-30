@@ -11,7 +11,7 @@ import ReloadPageAnimation from "./assets/lottie/reloadPageAnim2";
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: ReloadPageAnimation,
-  duration: 3000, // Set animation duration as per your animation
+  duration: 3000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -33,7 +33,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1WUAt843s7Rc5jQU3kHAJOm5gvkRCtn_i/view?usp=sharing",
-    // Set to empty to hide the button
+  // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -54,11 +54,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Abilities",
-  subTitle: "FULLSTACK SOFTWARE ENGINEER WITH A PASSION FOR BUILDING WEB APPLICATIONS.",
+  subTitle:
+    "FULLSTACK SOFTWARE ENGINEER WITH A PASSION FOR BUILDING WEB APPLICATIONS.",
   skills: [
     emoji(`⚡ Designed end-to-end systems for database automation and material
       tracking.`),
-    emoji(`⚡ Customized front-end Shopify layout for enhanced customer experience.`),
+    emoji(
+      `⚡ Customized front-end Shopify layout for enhanced customer experience.`
+    ),
     emoji(`⚡ Hands-on use of Bitbucket for version control, PR management, collaborative
       workflows, Code and process documentation through Confluence.`)
   ],
@@ -230,7 +233,7 @@ const workExperiences = {
       date: "May 2025 - Jun 2025",
       desc: `Delivered inflatables and created memorable experiences for families at every
       event.`
-    },
+    }
     // {
     //   role: "Member Engagement Specialist",
     //   company: "YMCA Santa Barbara",
@@ -295,15 +298,13 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and related",
+  subtitle: "Achievements, Certifications, Award Letters and related",
 
   achievementsCards: [
     {
       title: `Prompt Engineering: Aprende a hablar con una inteligencia artificial
       generativa`,
-      subtitle:
-        `Learned Prompt Engineering techniques to effectively communicate with generative
+      subtitle: `Learned Prompt Engineering techniques to effectively communicate with generative
         AI models.`,
       image: require("./assets/images/promptEngineering.jpg"),
       imageAlt: "Google Code-In Logo",
@@ -317,7 +318,7 @@ const achievementSection = {
           url: ""
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
