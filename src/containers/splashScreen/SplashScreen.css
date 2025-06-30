@@ -7,7 +7,9 @@
 }
 
 .splash-animation-container {
-  height: 50vh;
+  height: 25vh;
+  max-width: 200px;
+  margin-bottom: 2%;
 }
 
 .splash-title-container {
@@ -15,7 +17,7 @@
   text-decoration: none;
 }
 .splash-title {
-  font-family: "Agustina Regular", cursive;
+  font-family: "Papyrus", sans-serif;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;

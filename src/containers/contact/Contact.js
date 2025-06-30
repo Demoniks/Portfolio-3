@@ -30,25 +30,21 @@ export default function Contact() {
               }
             >
               {contactInfo.number && (
-                <>
-                  <a
-                    className="contact-detail"
-                    href={"tel:" + contactInfo.number}
-                  >
-                    {contactInfo.number}
-                  </a>
-                  <br />
-                  <br />
-                </>
+                <a
+                  className="contact-detail"
+                  href={"tel:" + contactInfo.number}
+                  style={{ display: "block", marginBottom: "3%" }}
+                >
+                  {contactInfo.number}
+                </a>
               )}
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
+                style={{ display: "block", marginBottom: "3%" }}
               >
                 {contactInfo.email_address}
               </a>
-              <br />
-              <br />
               <SocialMedia />
             </div>
           </div>
