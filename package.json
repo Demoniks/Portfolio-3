@@ -22,14 +22,15 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run copy-build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -d build",
+    "copy-build": "node copyBuildToDocs.js",
+    "deploy": "echo '✔ Build copied to docs/ on main branch.'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,scss,json}\" --ignore-path .prettierignore",
+    "check-format": "prettier -c \"src/**/*.{js,jsx,ts,tsx,css,scss,json}\" --ignore-path .prettierignore"
   },
   "eslintConfig": {
     "extends": "react-app"
