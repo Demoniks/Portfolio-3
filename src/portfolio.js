@@ -22,7 +22,7 @@ const illustration = {
 
 const greeting = {
   username: "Demoniks", // Your name, Nickname or Initials
-  title: "Hey, I'm Alexis!",
+  title: "Hey, I'm Alexis Villagomez!",
   subTitle: (
     <>
       {emoji("A passionate Full Stack Software Engineer 🚀")}
@@ -190,7 +190,13 @@ const workExperiences = {
   display: true, // Set to true to show Work Experience section
   experience: [
     {
-      role: "Fullstack Developer",
+      role: (
+        <>
+          Fullstack Developer
+          <br />
+          (Internship)
+        </>
+      ),
       company: "Harman International",
       companylogo: require("./assets/images/harmanProfessional.jpg"),
       date: "Sep 2023 – Jun 2024",
@@ -203,15 +209,34 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Developer",
+      role: (
+        <>
+          Software Developer
+          <br />
+          (Part-time)
+        </>
+      ),
       company: "Shopify",
       companylogo: require("./assets/images/Shopify.webp"),
       date: "Jan 2025 - May 2025",
       desc: `Enhanced front-end and migrated data using advanced Excel and Shopify tools,
-      driving efficiency and rapid iteration.`
+      driving efficiency and rapid iteration.`,
+      descBullets: [
+        "UI/UX improvements.",
+        "Improved accuracy in Shopify migration.",
+        "Customized front-end Shopify layout for enhanced customer experience.",
+        `Launched an application that increased store efficiency
+        by 40% by automating routine tasks.`
+      ]
     },
     {
-      role: "Driver & Delivery Partner",
+      role: (
+        <>
+          Driver & Delivery Partner
+          <br />
+          (Secondary experience)
+        </>
+      ),
       company: "Uber",
       companylogo: require("./assets/images/uberDriverLogo.webp"),
       date: "Jul 2024 - Feb 2025",
@@ -219,15 +244,37 @@ const workExperiences = {
       satisfaction.`
     },
     {
-      role: "Real Estate Agent",
+      role: (
+        <>
+          Real Estate Agent
+          <br />
+          (Secondary experience)
+        </>
+      ),
       company: "Keller Williams",
       companylogo: require("./assets/images/KWLogo.webp"),
       date: "Oct 2024 - Mar 2025",
       desc: `Guided clients to their dream homes, making the buying and selling process
-      smooth and stress-free.`
+      smooth and stress-free.`,
+      descBullets: [
+        "Business Generation.",
+        "Real Estate Methodology.",
+        "Smart Plan.",
+        "Lead Generation.",
+        "Lead Follow Up.",
+        "Database Management.",
+        "Open Houses.",
+        "Winning over the buyer and sellers."
+      ]
     },
     {
-      role: "Volunteer Member",
+      role: (
+        <>
+          Volunteer Member
+          <br />
+          (Secondary experience)
+        </>
+      ),
       company: "Hospice of Santa Barbara",
       companylogo: require("./assets/images/HSBLogo.jpg"),
       date: "April 2025 - May 2025",
@@ -237,7 +284,13 @@ const workExperiences = {
       health conditions do advance care planning.`
     },
     {
-      role: "Part-time Team Member",
+      role: (
+        <>
+          Part-time Team Member
+          <br />
+          (Secondary experience)
+        </>
+      ),
       company: "Fiesta Jumps",
       companylogo: require("./assets/images/FJLogo.jpg"),
       date: "May 2025 - Jun 2025",
