@@ -216,7 +216,7 @@ const workExperiences = {
           (Part-time)
         </>
       ),
-      company: "Shopify",
+      company: "Aggressive Soccer",
       companylogo: require("./assets/images/Shopify.webp"),
       date: "Jan 2025 - May 2025",
       desc: `Enhanced front-end and migrated data using advanced Excel and Shopify tools,
