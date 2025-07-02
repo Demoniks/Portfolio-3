@@ -14,14 +14,14 @@ export default function WorkExperience() {
   }, []);
 
   if (!workExperiences.display) return null;
- const experienceContent = (
+  const experienceContent = (
     <div className="experience-container" id="workExperience">
       <div>
         <h1 className="experience-heading">Experiences</h1>
         <div className="experience-cards-div">
           {workExperiences.experience.map((card, i) => (
             <ExperienceCard
-              key={i} 
+              key={i}
               isDark={isDark}
               cardInfo={{
                 company: card.company,
@@ -40,7 +40,9 @@ export default function WorkExperience() {
 
   return (
     <div id="experience">
-      {isMobile ? experienceContent : (
+      {isMobile ? (
+        experienceContent
+      ) : (
         <Fade bottom duration={1000} distance="20px" appear>
           {experienceContent}
         </Fade>
