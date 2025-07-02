@@ -227,6 +227,16 @@ const workExperiences = {
       smooth and stress-free.`
     },
     {
+      role: "Volunteer Member",
+      company: "Hospice of Santa Barbara",
+      companylogo: require("./assets/images/HSBLogo.jpg"),
+      date: "April 2025 - May 2025",
+      desc: `Volunteered at Hospice of Santa Barbara, attending workshops on advanced
+      care planning. Learned that advance care planning is a helpful way for people who
+      are 18 years or older to prepare for the future. Both healthy people and people with
+      health conditions do advance care planning.`
+    },
+    {
       role: "Part-time Team Member",
       company: "Fiesta Jumps",
       companylogo: require("./assets/images/FJLogo.jpg"),
@@ -256,7 +266,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github,
+  // defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -304,8 +315,8 @@ const achievementSection = {
     {
       title: `Prompt Engineering: Aprende a hablar con una inteligencia artificial
       generativa`,
-      subtitle: `Learned Prompt Engineering techniques to effectively communicate with generative
-        AI models.`,
+      subtitle: `Learned Prompt Engineering techniques to effectively communicate with
+      generative AI models.`,
       image: require("./assets/images/promptEngineering.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -328,20 +339,25 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    `With Love for Developing cool stuff, I love to write and teach others what I have
+    learnt.`,
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of
+  // hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      // url: `https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-
+      // google-t-shirt-and-cloud-credits-4a8d86d76eae`,
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        `Do you want to win $200 and Google Assistant Tshirt by creating a Google
+        Assistant Action in less then 30 min?`
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        `React is a JavaScript library for building User Interface. It is maintained by
+        Facebook and a community of individual developers and companies.`
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -373,9 +389,10 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
+  // podcast: [
+  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--
+  // Pakistan-e9givv/a-a15itvo"
+  // ],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -403,7 +420,8 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable
+// will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
