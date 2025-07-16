@@ -160,30 +160,6 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  display: true,
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "70%"
-    }
-  ],
-  displayCodersrank: true
-  // Set true to display codersrank badges section need to changes your username in
-  // src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
 // Work experience section
 
 const workExperiences = {
@@ -228,90 +204,7 @@ const workExperiences = {
         `Launched an application that increased store efficiency
         by 40% by automating routine tasks.`
       ]
-    },
-    {
-      role: (
-        <>
-          Driver & Delivery Partner
-          <br />
-          (Secondary experience)
-        </>
-      ),
-      company: "Uber",
-      companylogo: require("./assets/images/uberDriverLogo.webp"),
-      date: "Jul 2024 - Feb 2025",
-      desc: `Ensured safe, timely rides and deliveries, always focused on customer
-      satisfaction.`
-    },
-    {
-      role: (
-        <>
-          Real Estate Agent
-          <br />
-          (Secondary experience)
-        </>
-      ),
-      company: "Keller Williams",
-      companylogo: require("./assets/images/KWLogo.webp"),
-      date: "Oct 2024 - Mar 2025",
-      desc: `Guided clients to their dream homes, making the buying and selling process
-      smooth and stress-free.`,
-      descBullets: [
-        "Business Generation.",
-        "Real Estate Methodology.",
-        "Smart Plan.",
-        "Lead Generation.",
-        "Lead Follow Up.",
-        "Database Management.",
-        "Open Houses.",
-        "Winning over the buyer and sellers."
-      ]
-    },
-    {
-      role: (
-        <>
-          Volunteer Member
-          <br />
-          (Secondary experience)
-        </>
-      ),
-      company: "Hospice of Santa Barbara",
-      companylogo: require("./assets/images/HSBLogo.jpg"),
-      date: "April 2025 - May 2025",
-      desc: `Volunteered at Hospice of Santa Barbara, attending workshops on advanced
-      care planning. Learned that advance care planning is a helpful way for people who
-      are 18 years or older to prepare for the future. Both healthy people and people with
-      health conditions do advance care planning.`
-    },
-    {
-      role: (
-        <>
-          Part-time Team Member
-          <br />
-          (Secondary experience)
-        </>
-      ),
-      company: "Fiesta Jumps",
-      companylogo: require("./assets/images/FJLogo.jpg"),
-      date: "May 2025 - Jun 2025",
-      desc: `Delivered inflatables and created memorable experiences for families at every
-      event.`
     }
-    // {
-    //   role: "Member Engagement Specialist",
-    //   company: "YMCA Santa Barbara",
-    //   companylogo: require("./assets/images/YMCALogo.png"),
-    //   date: "Jun 2025 - Present",
-    //   desc: `Help customers, solve their needs, and engage with them on every request.
-    //   Provide a warm welcome and assist new customers in understanding the benefits of
-    //   joining the Y.`,
-    //   descBullets: [
-    //     "Greeted and welcomed members, ensuring a positive first impression.",
-    //     "Assisted customers with their needs and resolved issues promptly.",
-    //     "Engaged with new and existing members to promote YMCA programs and services.",
-    //     "Explained membership benefits and encouraged new sign-ups."
-    //   ]
-    // }
   ]
 };
 
@@ -480,7 +373,6 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   openSource,
   bigProjects,

@@ -12,8 +12,7 @@ import {
   talkSection,
   achievementSection,
   resumeSection,
-  educationInfo,
-  techStack
+  educationInfo
 } from "../../portfolio";
 
 function Header() {
@@ -26,7 +25,6 @@ function Header() {
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
   const viewEducation = educationInfo.display;
-  const viewStackProgress = techStack.display;
 
   return (
     <Headroom>
@@ -53,11 +51,6 @@ function Header() {
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
-            </li>
-          )}
-          {viewStackProgress && (
-            <li>
-              <a href="#stackprogress">Proficiency</a>
             </li>
           )}
           {viewEducation && (
