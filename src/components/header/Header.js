@@ -26,6 +26,10 @@ function Header() {
   const viewResume = resumeSection.display;
   const viewEducation = educationInfo.display;
 
+  const handleMenuToggle = e => {
+    document.body.style.overflow = e.target.checked ? "hidden" : "auto";
+  };
+
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -34,7 +38,12 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <input
+          className="menu-btn"
+          type="checkbox"
+          id="menu-btn"
+          onChange={handleMenuToggle}
+        />
         <label
           className="menu-icon"
           htmlFor="menu-btn"
