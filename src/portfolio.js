@@ -220,34 +220,26 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some of my most notable projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bzb-construction_website.png"),
+      projectName: "BZB Construction",
+      projectDesc: `A fully responsive and animated website for BZB Construction,
+      showcasing services in demolition, framing, plumbing, and more. Built with a custom
+      loading animation, smooth page transitions, and optimized mobile performance to
+      deliver a modern and engaging user experience.`,
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.bzb-construction.com/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section

@@ -7,24 +7,30 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
+  // openSource,
   blogSection,
   talkSection,
   achievementSection,
   resumeSection,
-  educationInfo
+  educationInfo,
+  bigProjects
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
+  const viewProjects = bigProjects.display;
+  // const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
   const viewEducation = educationInfo.display;
+
+  const handleMenuToggle = e => {
+    document.body.style.overflow = e.target.checked ? "hidden" : "auto";
+  };
 
   return (
     <Headroom>
@@ -34,7 +40,12 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <input
+          className="menu-btn"
+          type="checkbox"
+          id="menu-btn"
+          onChange={handleMenuToggle}
+        />
         <label
           className="menu-icon"
           htmlFor="menu-btn"
@@ -61,6 +72,11 @@ function Header() {
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
+            </li>
+          )}
+          {viewProjects && (
+            <li>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {
