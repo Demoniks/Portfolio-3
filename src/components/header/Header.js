@@ -30,6 +30,18 @@ function Header() {
 
   const handleMenuToggle = e => {
     document.body.style.overflow = e.target.checked ? "hidden" : "auto";
+    const topButton = document.getElementById("topButton");
+    if (topButton) {
+      if (e.target.checked) {
+        topButton.style.visibility = "hidden";
+      } else {
+        topButton.style.visibility =
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+          ? "visible"
+          : "hidden";
+      }
+    }
   };
 
   return (

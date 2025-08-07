@@ -19,6 +19,8 @@ code {
 html,
 body {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;

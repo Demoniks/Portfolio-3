@@ -68,3 +68,12 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
+
+@media (max-width: 320px) {
+  .square {
+    width: 100%;
+  }
+  .blog-text-div {
+    grid-template-columns: 1fr;
+  }
+}
