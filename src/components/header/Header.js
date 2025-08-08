@@ -28,11 +28,26 @@ function Header() {
   const viewResume = resumeSection.display;
   const viewEducation = educationInfo.display;
 
+  const preventScroll = e => {
+    e.preventDefault();
+  };
+
   const handleMenuToggle = e => {
-    document.body.style.overflow = e.target.checked ? "hidden" : "auto";
+    const isOpen = e.target.checked;
+    document.body.style.overflow = isOpen ? "hidden" : "auto";
+    document.documentElement.style.overflow = isOpen ? "hidden" : "auto";
+
+    if (isOpen) {
+      window.addEventListener("wheel", preventScroll, {passive: false});
+      window.addEventListener("touchmove", preventScroll, {passive: false});
+    } else {
+      window.removeEventListener("wheel", preventScroll, {passive: false});
+      window.removeEventListener("touchmove", preventScroll, {passive: false});
+    }
+
     const topButton = document.getElementById("topButton");
     if (topButton) {
-      if (e.target.checked) {
+      if (isOpen) {
         topButton.style.visibility = "hidden";
       } else {
         topButton.style.visibility =
