@@ -36,10 +36,10 @@ function Header() {
         topButton.style.visibility = "hidden";
       } else {
         topButton.style.visibility =
-        document.body.scrollTop > 20 ||
-        document.documentElement.scrollTop > 20
-          ? "visible"
-          : "hidden";
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+            ? "visible"
+            : "hidden";
       }
     }
   };
