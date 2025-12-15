@@ -204,6 +204,26 @@ const workExperiences = {
         `Launched an application that increased store efficiency
         by 40% by automating routine tasks.`
       ]
+    },
+    {
+      role: (
+        <>
+          Cryocooler Production Technician
+          <br />
+          (Full-time)
+        </>
+      ),
+      company: "Teledyne | FLIR OEM",
+      companylogo: require("./assets/images/Teledyne_FLIR_Logo.jpg"),
+      date: "Sep 2025 – Present",
+      desc: `Perform precision assembly, soldering, metrology inspections, and
+      cleanroom manufacturing following strict quality standards.`,
+      descBullets: [
+        `Support aerospace-grade production and testing operations for
+        cryocooler systems used in advanced imaging sensors.`,
+        "Executed metrology inspections and root cause analysis.",
+        "Supported process improvement for aerospace-grade reliability."
+      ]
     }
   ]
 };
@@ -221,7 +241,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some of my most notable projects",
+  subtitle: "Some of my recent projects",
   projects: [
     {
       image: require("./assets/images/bzb-construction_website.png"),
@@ -234,6 +254,41 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://www.bzb-construction.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("./assets/images/.png"),
+      projectName: "Audio Switcher",
+      projectDesc: 
+      `Built using Python and Autohotkey.
+      A fully automated code to detect Web browser audio in order to stop
+      Apple Music audio. Once Web browser audio is stopped, runs an autohotkey script
+      to switch to Apple Music and play music and switch back to last web browser
+      played.`,
+      footerLink: [
+        {
+          name: "Github Link",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      // image: require("./assets/images/.png"),
+      projectName: "Bluetooth iOS Controller (In Progress)",
+      projectDesc:
+      `An automated script to turn on iPhone Bluetooth (when bluetooth is off/idle)
+      when selected headphones/airpods are on and send B. signal to connect to the device,
+      this plays an important role in order to save iPhone resources and battery longevity
+      only when Bluetooth is required. Can be further improved to turn off Bluetooth when
+      headphones/airpods are off, and also use iPhone shortcuts to automate song stations
+      or run any playlist, can be added with Spotify IPA to make it more interactive.`,
+      footerLink: [
+        {
+          name: "Github Link",
+          url: ""
         }
         //  you can add extra buttons here.
       ]
