@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fa5c5f70.css",
-    "main.js": "/static/js/main.e36bb492.js",
+    "main.js": "/static/js/main.ea30902c.js",
     "static/js/494.8a546393.chunk.js": "/static/js/494.8a546393.chunk.js",
     "static/css/487.2426eca6.chunk.css": "/static/css/487.2426eca6.chunk.css",
     "static/js/487.26d0fa8b.chunk.js": "/static/js/487.26d0fa8b.chunk.js",
@@ -9,10 +9,10 @@
     "static/js/990.8f771177.chunk.js": "/static/js/990.8f771177.chunk.js",
     "static/media/bzb-construction_website.png": "/static/media/bzb-construction_website.b463af61a79cd9416162.png",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
+    "static/media/resume.pdf": "/static/media/resume.923c31b00bd29d7e53d6.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.eef8487fa011bc509530.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/promptEngineering.jpg": "/static/media/promptEngineering.d33b5109943f99df20c1.jpg",
+    "static/media/promptEngineering.jpg": "/static/media/promptEngineering.12a79ef87e5808de7284.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/harmanProfessional.jpg": "/static/media/harmanProfessional.7fdf21b7158f17607db0.jpg",
@@ -22,7 +22,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.fa5c5f70.css.map": "/static/css/main.fa5c5f70.css.map",
-    "main.e36bb492.js.map": "/static/js/main.e36bb492.js.map",
+    "main.ea30902c.js.map": "/static/js/main.ea30902c.js.map",
     "494.8a546393.chunk.js.map": "/static/js/494.8a546393.chunk.js.map",
     "487.2426eca6.chunk.css.map": "/static/css/487.2426eca6.chunk.css.map",
     "487.26d0fa8b.chunk.js.map": "/static/js/487.26d0fa8b.chunk.js.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.fa5c5f70.css",
-    "static/js/main.e36bb492.js"
+    "static/js/main.ea30902c.js"
   ]
 }
