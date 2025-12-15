@@ -261,8 +261,7 @@ const bigProjects = {
     {
       // image: require("./assets/images/.png"),
       projectName: "Audio Switcher",
-      projectDesc: 
-      `Built using Python and Autohotkey.
+      projectDesc: `Built using Python and Autohotkey.
       A fully automated code to detect Web browser audio in order to stop
       Apple Music audio. Once Web browser audio is stopped, runs an autohotkey script
       to switch to Apple Music and play music and switch back to last web browser
@@ -278,8 +277,7 @@ const bigProjects = {
     {
       // image: require("./assets/images/.png"),
       projectName: "Bluetooth iOS Controller (In Progress)",
-      projectDesc:
-      `An automated script to turn on iPhone Bluetooth (when bluetooth is off/idle)
+      projectDesc: `An automated script to turn on iPhone Bluetooth (when bluetooth is off/idle)
       when selected headphones/airpods are on and send B. signal to connect to the device,
       this plays an important role in order to save iPhone resources and battery longevity
       only when Bluetooth is required. Can be further improved to turn off Bluetooth when
