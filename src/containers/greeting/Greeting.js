@@ -41,13 +41,21 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
-                  <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+                  (() => {
+                    const isExternal = /^https?:\/\//i.test(greeting.resumeLink);
+                    const href = isExternal ? greeting.resumeLink : require("./resume.pdf");
+                    return (
+                      <a
+                        href={href}
+                        className="download-link-button"
+                        {...(isExternal
+                          ? { target: "_blank", rel: "noopener noreferrer" }
+                          : { download: "Resume.pdf" })}
+                      >
+                        <Button text="Download my resume" />
+                      </a>
+                    );
+                  })()
                 )}
               </div>
             </div>

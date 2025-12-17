@@ -32,7 +32,7 @@ const greeting = {
     </>
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1WUAt843s7Rc5jQU3kHAJOm5gvkRCtn_i/view?usp=sharing",
+    "https://drive.google.com/file/d/1j-bKEn1FJRxk7UR-pAuPt3I2Qihdg8Zt/view?usp=sharing",
   // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
